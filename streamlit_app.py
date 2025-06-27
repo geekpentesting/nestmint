@@ -28,7 +28,8 @@ for i in range(total_children):
 if st.button("Calculate Savings Plan"):
     try:
         with st.spinner("Calculating realistic SIP plan for your future..."):
-            res = requests.post("http://localhost:8000/calculate", json={
+            #res = requests.post("http://localhost:8000/calculate", json={
+            res = requests.post("https://nestmint-api.onrender.com/calculate", json={
                 "current_age": age,
                 "retirement_age": retirement_age,
                 "desired_income": desired_income,
