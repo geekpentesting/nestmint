@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ret_calc/
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Excel/Output files
+*.xlsx
+*.csv
+
+# PyInstaller
+dist/
+build/
+*.spec
